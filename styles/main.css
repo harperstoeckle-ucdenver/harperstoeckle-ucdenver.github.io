@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Tries to emulate a "page" on letter paper. */
 .article-page {
 	min-width: 2in;
-	max-width: 8.5in;
+	max-width: 6.5in;
 	overflow: scroll;
 
 	margin: .3in;
