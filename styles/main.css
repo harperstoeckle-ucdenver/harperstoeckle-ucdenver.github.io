@@ -1,9 +1,51 @@
 @import "fonts.css";
 @import "colors.css";
 
+:root {
+	--side-bar-width: 150px;
+}
+
 body {
 	font-family: "Noticia Text", "PT Serif", serif;
 
 	background-color: var(--cs-ayu-light-bg);
 	color: var(--cs-ayu-light-fg);
+}
+
+a {
+	text-decoration: none;
+}
+
+#side-bar {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	height: 100%;
+	width: var(--side-bar-width);
+	overflow: scroll;
+}
+
+#side-bar a {
+	margin: 10px 0 20px 10px;
+
+	display: block;
+
+	padding: 3px 3px 3px 10px;
+	border-radius: 10px;
+
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+
+	color: var(--cs-ayu-light-fg);
+}
+
+#side-bar a:hover {
+	background-color: var(--cs-ayu-light-comment);
+	color: var(--cs-ayu-light-bg);
+}
+
+#side-bar a:active, #side-bar a.selected {
+	background-color: var(--cs-ayu-light-teal);
+	color: var(--cs-ayu-light-bg);
 }
