@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 .begins-with-drop-cap::first-letter {
 	float: left;
 	font-size: 500%;
+	line-height: 50%;
 
 	margin-right: 0.1em;
 	margin-top: 0.08em;
