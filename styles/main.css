@@ -51,7 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 
 	padding: 3px 3px 3px 10px;
-	border-radius: 10px;
+
+	/* Provide room for the border shown on selected links
+	 */
+	border-right: 4px solid transparent;
 
 	font-family: "PT Sans", sans-serif;
 	font-size: 20px;
@@ -60,13 +63,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #side-bar a:hover {
-	background-color: var(--cs-ayu-light-comment);
-	color: var(--cs-ayu-light-bg);
+	color: var(--cs-ayu-light-comment);
 }
 
-#side-bar a:active, #side-bar a.selected {
-	background-color: var(--cs-ayu-light-teal);
-	color: var(--cs-ayu-light-bg);
+#side-bar a:active {
+	color: var(--cs-ayu-light-teal);
+}
+
+#side-bar a.selected {
+	border-right: 4px solid var(--cs-ayu-light-teal);
 }
 
 #main-content {
