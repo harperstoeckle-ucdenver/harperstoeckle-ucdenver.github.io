@@ -1,5 +1,9 @@
 @import "fonts.css";
+@import "colors.css";
 
 body {
 	font-family: "Noticia Text", "PT Serif", serif;
+
+	background-color: var(--cs-ayu-light-bg);
+	color: var(--cs-ayu-light-fg);
 }
