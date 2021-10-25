@@ -43,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 
 	height: 100%;
 	width: var(--side-bar-width);
-	overflow: scroll;
 }
 
 #side-bar a {
@@ -87,7 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 .article-page {
 	min-width: 2in;
 	max-width: 6.5in;
-	overflow: scroll;
 
 	margin: .3in;
 
