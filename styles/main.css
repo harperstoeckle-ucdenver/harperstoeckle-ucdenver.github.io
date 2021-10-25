@@ -16,10 +16,29 @@ a {
 	text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-weight: bold;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.begins-with-drop-cap::first-letter {
+	float: left;
+	font-size: 500%;
+
+	margin-right: 0.1em;
+	margin-top: 0.08em;
+}
+
 #side-bar {
 	position: fixed;
 	left: 0;
 	top: 0;
+
+	padding-top: 1in;
 
 	height: 100%;
 	width: var(--side-bar-width);
@@ -27,7 +46,7 @@ a {
 }
 
 #side-bar a {
-	margin: 10px 0 20px 10px;
+	margin: 10px 10px 20px 10px;
 
 	display: block;
 
@@ -48,4 +67,23 @@ a {
 #side-bar a:active, #side-bar a.selected {
 	background-color: var(--cs-ayu-light-teal);
 	color: var(--cs-ayu-light-bg);
+}
+
+#main-content {
+	/*
+	 * Prevent overlap with the side bar. Further subdivision is
+	 * probably required to add more space.
+	 */
+	margin-left: var(--side-bar-width);
+}
+
+/* Tries to emulate a "page" on letter paper. */
+.article-page {
+	min-width: 2in;
+	max-width: 8.5in;
+	overflow: scroll;
+
+	margin: .3in;
+
+	padding: 1in;
 }
