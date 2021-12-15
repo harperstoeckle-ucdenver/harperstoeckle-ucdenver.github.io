@@ -107,3 +107,28 @@ img.heroimage {
 
 	display: block;
 }
+
+.TeX {
+	/*
+	 * Needed to fix the space added by the T
+	 * and X being shifted.
+	 */
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+}
+
+.TeX .TeX_T {
+	display: inline-block;
+	position: relative;
+	left: 0.1667em;
+}
+.TeX .TeX_E {
+	display: inline-block;
+	position: relative;
+	top: 0.5ex;
+}
+.TeX .TeX_X {
+	display: inline-block;
+	position: relative;
+	right: 0.125em;
+}
