@@ -97,9 +97,8 @@ blockquote {
 	color: var(--cs-ayu-light-comment);
 }
 
-img.verywide {
+img.heroimage {
 	width: 50%;
-	height: 1cm;
 
 	margin-left: auto;
 	margin-right: auto;
