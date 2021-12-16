@@ -184,6 +184,7 @@ img.heroimage {
 	flex-direction: column;
 	width: 40%;
 	height: auto;
+	align-self: center;
 	border: 2px solid var(--cs-ayu-light-blue);
 }
 
@@ -205,6 +206,7 @@ img.heroimage {
 	flex-direction: column;
 	width: 85%;
 	height: auto;
+	align-self: center;
 	border: 2px solid var(--cs-ayu-light-blue);
 	margin-left: auto;
 	margin-right: auto;
