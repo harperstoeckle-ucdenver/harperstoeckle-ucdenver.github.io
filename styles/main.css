@@ -184,7 +184,7 @@ img.heroimage {
 .captioned-image {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 40%;
 	border: 2px solid var(--cs-ayu-light-blue);
 }
 
