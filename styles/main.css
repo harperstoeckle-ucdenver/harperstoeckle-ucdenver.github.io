@@ -108,29 +108,35 @@ img.heroimage {
 	display: block;
 }
 
-.TeX {
-	/*
-	 * Needed to fix the space added by the T
-	 * and X being shifted.
-	 */
-	margin-left: -0.1667em;
-	margin-right: -0.125em;
-}
+/*
+ * Extremely hacky way to automatically generate
+ * the TeX logo. The .autotex elements needs to
+ * provide the E in the middle of the logo itself.
+ */
+.autotex:before {
+	content: "T";
 
-.TeX .TeX_T {
 	display: inline-block;
+
 	position: relative;
 	left: 0.1667em;
+	bottom: 0.5ex;
 }
-.TeX .TeX_E {
+.autotex {
 	display: inline-block;
 	position: relative;
 	top: 0.5ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
 }
-.TeX .TeX_X {
+.autotex:after {
+	content: "X";
+
 	display: inline-block;
+
 	position: relative;
 	right: 0.125em;
+	bottom: 0.5ex;
 }
 
 .image-text-panel {
@@ -154,6 +160,8 @@ img.heroimage {
 	flex-direction: column;
 	width: 30%;
 	border: 2px solid var(--cs-ayu-light-blue);
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .captioned-image img {
