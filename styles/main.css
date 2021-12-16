@@ -132,3 +132,35 @@ img.heroimage {
 	position: relative;
 	right: 0.125em;
 }
+
+.image-text-panel {
+	display: flex;
+	align-content: flex-start;
+}
+
+.image-text-panel p {
+	display: inline-block;
+	width: 75%;
+	margin-top: 0;
+}
+
+/*
+ * This should probably not be flex but I don't
+ * know the correct thing to do.
+ */
+.captioned-image {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.captioned-image img {
+	display: block;
+}
+
+.captioned-image .caption {
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 3px;
+}
