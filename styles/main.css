@@ -172,6 +172,11 @@ img.heroimage {
 	margin-top: 0;
 }
 
+/* Acts as a divider betwen the image and text. */
+.image-text-panel .spacer {
+	width: 1em;
+}
+
 /*
  * This should probably not be flex but I don't
  * know the correct thing to do.
@@ -181,8 +186,6 @@ img.heroimage {
 	flex-direction: column;
 	width: 30%;
 	border: 2px solid var(--cs-ayu-light-blue);
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .captioned-image img {
