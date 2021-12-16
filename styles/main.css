@@ -110,10 +110,10 @@ img.heroimage {
 
 /*
  * Extremely hacky way to automatically generate
- * the TeX logo. The .autotex elements needs to
+ * the TeX logo. The .texlogo elements needs to
  * provide the E in the middle of the logo itself.
  */
-.autotex:before {
+.texlogo:before {
 	content: "T";
 
 	display: inline-block;
@@ -122,14 +122,14 @@ img.heroimage {
 	left: 0.1667em;
 	bottom: 0.5ex;
 }
-.autotex {
+.texlogo {
 	display: inline-block;
 	position: relative;
 	top: 0.5ex;
 	margin-left: -0.1667em;
 	margin-right: -0.125em;
 }
-.autotex:after {
+.texlogo:after {
 	content: "X";
 
 	display: inline-block;
