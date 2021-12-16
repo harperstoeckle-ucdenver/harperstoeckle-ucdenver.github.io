@@ -184,12 +184,13 @@ img.heroimage {
 	flex-direction: column;
 	width: 40%;
 	height: auto;
-	align-self: center;
 	border: 2px solid var(--cs-ayu-light-blue);
 }
 
 .captioned-image img {
 	display: block;
+	align-self: center;
+	width: 100%;
 }
 
 .captioned-image .caption {
@@ -206,7 +207,6 @@ img.heroimage {
 	flex-direction: column;
 	width: 85%;
 	height: auto;
-	align-self: center;
 	border: 2px solid var(--cs-ayu-light-blue);
 	margin-left: auto;
 	margin-right: auto;
@@ -214,6 +214,8 @@ img.heroimage {
 
 .centered-captioned-image img {
 	display: block;
+	align-self: center;
+	width: 100%;
 }
 
 .centered-captioned-image .caption {
