@@ -198,3 +198,25 @@ img.heroimage {
 	padding-bottom: .5em;
 	overflow: hidden;
 }
+
+.centered-captioned-image {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	border: 2px solid var(--cs-ayu-light-blue);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered-captioned-image img {
+	display: block;
+}
+
+.centered-captioned-image .caption {
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	overflow: hidden;
+}
