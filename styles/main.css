@@ -2,7 +2,7 @@
 @import "colors.css";
 
 :root {
-	--side-bar-width: 150px;
+	--side-bar-width: 160px;
 }
 
 body {
@@ -87,9 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 	min-width: 2in;
 	max-width: 6.5in;
 
-	margin: .3in;
-
-	padding: 1in;
+	padding: .5in;
 }
 
 blockquote {
