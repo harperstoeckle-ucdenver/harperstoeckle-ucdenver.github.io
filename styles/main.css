@@ -139,6 +139,27 @@ img.heroimage {
 	bottom: 0.5ex;
 }
 
+/*
+ * For the start of the LaTeX logo. The same weird
+ * thing is required as the TeX logo, but in this
+ * case the L must be provided. The whole LaTeX
+ * logo can be made with <nobr><span
+ * class="latexlogo-la">L</span><span
+ * class="texlogo">E</span></nobr>
+ */
+.latexlogo-la {
+	margin-right: -0.31em;
+}
+.latexlogo-la:after {
+	font-size: 80%;
+	content: "A";
+
+	position: relative;
+
+	right: 0.27em;
+	bottom: 0.2em;
+}
+
 .image-text-panel {
 	display: flex;
 	align-content: flex-start;
