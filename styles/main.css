@@ -103,7 +103,7 @@ img.heroimage {
 	margin-left: auto;
 	margin-right: auto;
 
-	border: 4px solid var(--cs-ayu-light-blue);
+	border: 2px solid var(--cs-ayu-light-blue);
 
 	display: block;
 }
@@ -136,6 +136,7 @@ img.heroimage {
 .image-text-panel {
 	display: flex;
 	align-content: flex-start;
+	align-items: flex-start;
 }
 
 .image-text-panel p {
@@ -152,6 +153,7 @@ img.heroimage {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	border: 2px solid var(--cs-ayu-light-blue);
 }
 
 .captioned-image img {
