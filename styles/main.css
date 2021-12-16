@@ -197,4 +197,5 @@ img.heroimage {
 	font-size: 10px;
 	text-align: center;
 	padding-top: .5em;
+	overflow: hidden;
 }
